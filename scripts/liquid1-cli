@@ -1,0 +1,2 @@
+#!/bin/sh
+/build_docker/$ELEMENTS_BRANCH_DIR/src/elements-cli -chain=elementsregtest -rpcuser=$ELEMENTSREGTEST_RPCUSER -rpcpassword=$ELEMENTSREGTEST_RPCPASSWORD -rpcport=$ELEMENTSREGTEST_RPCPORT "$@"

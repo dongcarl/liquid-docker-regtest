@@ -1,0 +1,2 @@
+#!/bin/sh
+/build_docker/$BITCOIN_BRANCH_DIR/src/bitcoin-cli -chain=elementsregtest -rpcuser=$REGTEST_RPCUSER -rpcpassword=$REGTEST_RPCPASSWORD -rpcport=$REGTEST_RPCPORT "$@"
